@@ -1,0 +1,264 @@
+body {
+	font: 12px Arial, Tahoma, Verdana, sans-serif;
+	background-color: lightcyan;
+}
+
+/* DIV CONTENEDOR GENERAL */
+#wrapper {
+	width: 60%;
+	margin: auto;
+}
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+	height: 250px;
+	background-image: url(../images/cabecera.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-radius: 40px;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#middle {
+	width: 100%;
+    background-color: grey; 
+    overflow: auto;
+	border-radius: 40px;
+}
+#content {
+    text-align: center; 
+	width: 100%;
+    background-color: grey;
+    padding: 10px;   
+}
+img{
+	width: 70%;
+	height: 70%;
+}
+#img{
+	width: 100%;   
+	height: 100%;  
+	transition: transform 0.3s ease; 
+ }
+#img:hover {
+	transform: scale(1.2); /* Escala la imagen al 120% cuando se pasa el cursor */
+ }
+ul{
+	list-style: none;
+	font-size: small;
+}
+li:hover{
+	color: rgb(240, 240, 240);
+}
+.correo{
+	color: black;
+}
+/* Cerler 
+-----------------------------------------------------------------------------*/
+#Cerler{
+	text-align: center;
+	font-size: small;
+	margin: 5%;
+}
+.titulo{
+	text-transform: uppercase;
+}
+.imgC{
+	width: 70%;
+	height: 70%;
+	border-radius: 25px;
+}
+.imgA{
+	width: 70%;
+	height: 70%;
+	border-radius: 25px;
+}
+.aneto{
+	color: aquamarine;
+}
+/* Formigal
+-----------------------------------------------------------------------------*/
+#Formigal{
+	text-align: center;
+	font-size: small;
+	margin: 5%;
+}
+.imgF{
+	width: 70%;
+	height: 70%;
+	border-radius: 25px;
+}
+/* Valdelinares
+-----------------------------------------------------------------------------*/
+#Valdelinares{
+	text-align: center;
+	font-size: small;
+	margin: 5%;
+}
+.imgV{
+	width: 70%;
+	height: 70%;
+	border-radius: 25px;
+}
+.kilómetros{
+	color: aquamarine;
+}
+/* Javalambre
+-----------------------------------------------------------------------------*/
+#Javalambre{
+	text-align: center;
+	font-size: small;
+	margin: 5%;
+}
+.imgJ{
+	width: 70%;
+	height: 70%;
+	border-radius: 25px
+}
+/* Informacion
+-----------------------------------------------------------------------------*/
+#Informacion{
+	text-align: center;
+	font-size: small;
+	margin: 5%;
+}
+.pistas{
+	text-align: center;
+	font-size: large;
+	color: black;
+}
+.inf{
+	text-decoration: none;
+	color: black;
+}
+/* Galeria 
+-----------------------------------------------------------------------------*/
+.gal{
+	text-transform: uppercase;
+	
+}
+
+h1 {
+	text-align: center;
+	color: #333;
+}
+.galeria {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr); 
+	gap: 15px;
+	max-width: 600px;
+	margin: 0 auto;
+}
+.galeria img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	transition: transform 0.3s, box-shadow 0.3s;
+}
+.galeria img:hover {
+	transform: scale(1.05);
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+/* Reservas
+-----------------------------------------------------------------------------*/
+h1 {
+	text-align: center;
+	color: #333;
+}
+.tabla-reservas {
+	border-collapse: collapse;
+	width: 80%;
+	max-width: 800px;
+	margin: 20px auto;
+	background-color: #fff;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.tabla-reservas th, .tabla-reservas td {
+	padding: 12px 15px;
+	border: 1px solid #ddd;
+	text-align: center;
+}
+
+.tabla-reservas th {
+	background-color: #9eb8b1;
+	color: white;
+	font-weight: bold;
+}
+.tabla-reservas tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.tabla-reservas tr:hover {
+	background-color: #d9eaf5;
+}
+.tabla-reservas .observacion {
+	background-color: #e0f7fa;
+	font-style: italic;
+	color: #004d40;
+}
+/* Contacto
+-----------------------------------------------------------------------------*/
+.formulario-registro {
+	background-color: #9eb8b1;
+	margin-left: 250px;
+	padding: 20px;
+	width: 600px;
+	border: 1px solid #333;
+	border-radius: 5px;
+}
+	
+.formulario-registro h2 {
+	margin-top: 0;
+	color: #333;
+	font-weight: bold;
+	text-align: center;
+}
+
+form {
+	display: inline-block;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: space-between;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+	color: #333;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+select {
+	width: 100%;
+	padding: 5px;
+	border: 1px solid #333;
+	border-radius: 3px;
+	box-sizing: border-box;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+    float: left;
+	clear: left;
+	height: 100px;
+	width: 100%;
+	background: #9eb8b1;
+	border-radius: 30px;
+}
+ion-icon {
+	margin: 4px;
+	margin-left: 1%;
+	color: black;
+	height: 30px;
+	width: 30px;
+}
+table{
+	text-align: center;
+	width: 80%;
+}
